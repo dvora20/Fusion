@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>שמירת מקום</title>
+    <!-- <link rel="stylesheet" href="C:\לימודים\פיתוח אפליקציות אינטרנטיות\שיעור 1 - HTML\Project\styleproj.css"> -->
+    <top id="tittel">שמירת מקום </top>
+    <link rel="stylesheet" href="styleproj.css">
+
+
+</head>
+
+<body>
+    <!--RESERVATION-->
+    <div class="container">
+
+        <label for="fname">שם מלא</label><br>
+        <input type="text" id="fname" name="firstname" placeholder="הזן/י שם מלא">&nbsp;&nbsp;<br><br>
+        
+        <label for="email">אימייל</label><br>
+        <input type="email" id="email" name="email" placeholder="הזן/י אימייל">&nbsp;&nbsp;<br><br>
+
+        <label for="phone">טלפון</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="הזן/י טלפון">&nbsp;&nbsp;<br><br>
+       
+        <label for="date">תאריך</label><br>
+        <input type="date" id="date" name="date">&nbsp;&nbsp;<br><br>
+
+        <label for="appt">שעה</label><br>
+        <input type="time" id="appt" name="appt">&nbsp;&nbsp;<br><br>
+
+        <label for="quantity">מס' סועדים</label><br>
+        <input type="number" id="quantity" name="quantity" min="1" max="15">&nbsp;&nbsp;<br><br>
+
+        <div>
+            <label for="subject">הערות</label><br>
+            <textarea id="subject" name="subject" placeholder="הזן/י" style="height:200px"></textarea>&nbsp;&nbsp;<br><br>
+        </div>
+
+        <br><br><br><br><br><br>
+
+        <label for="kitchens">בחר מטבח</label>
+        <select name="kitchens" id="kitchens">
+            <option  value="Israeli">ישראלי</option>
+            <option value="Italie">איטלקי</option>
+            <option value="American">אמריקאי</option>
+            <option value="chaina">סיני</option>
+        </select><br><br>
+
+        <input type="submit" value="הזמן">
+
+    </div>
+
+</body>
+
+</html>

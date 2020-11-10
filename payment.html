@@ -1,0 +1,100 @@
+<html>
+
+<head>
+
+  <!-- <link rel="stylesheet" href="C:\לימודים\פיתוח אפליקציות אינטרנטיות\שיעור 1 - HTML\Project\styleproj.css"> -->
+
+  <link rel="stylesheet" href="styleproj.css">
+
+
+</head>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-50">
+            <h2>
+              <top id="tittel">תשלום</top>
+            </h2>
+            <label for="fname"><i class="fa fa-user"></i> שם מלא </label><br>
+            <input type="text" id="fname" name="firstname" placeholder="הזן/י שם מלא">&nbsp;&nbsp;<br><br>
+            <label for="email"><i class="fa fa-envelope"></i>אימייל</label><br>
+            <input type="text" id="email" name="email" placeholder="name@example.com">&nbsp;&nbsp;
+            <br><br>
+            <label for="adr"><i class="fa fa-address-card-o"></i> כתובת</label><br>
+            <input type="text" id="adr" name="address" placeholder="הזן/י כתובת">&nbsp;&nbsp; <br><br>
+            <label for="city"><i class="fa fa-institution"></i> עיר</label><br>
+            <input type="text" id="city" name="city" placeholder="הזן/י עיר">&nbsp;&nbsp;
+            <br><br><br><br>
+          </div>
+        </div>
+
+        <div class="col-50">
+          <label for="fname"></label>
+          <div class="icon-container">
+            <i class="fa fa-cc-visa" style="color:navy;"></i>
+            <i class="fa fa-cc-amex" style="color:blue;"></i>
+            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+            <i class="fa fa-cc-discover" style="color:orange;"></i>
+          </div>
+          <label for="cname">שם בעל הכרטיס</label><br>
+          <input type="text" id="cname" name="cardname" placeholder="הזן/י שם בעל הכרטיס">&nbsp;&nbsp;<br><br>
+          <label for="ccnum">מס כרטיס</label><br>
+          <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">&nbsp;&nbsp;
+          <br><br>
+          <label for="expmonth">חודש</label><br>
+          <input type="text" id="expmonth" name="expmonth" placeholder="הזן/י חודש תוקף">&nbsp;&nbsp;
+          <br><br>
+
+          <div class="row">
+            <div class="col-50">
+              <label for="expyear"> שנה </label><br>
+              <input type="text" id="expyear" name="expyear" placeholder="הזן/י שנת תוקף">&nbsp;&nbsp;
+              <br><br>
+            </div>
+            <div class="col-50">
+              <label for="cvv">CVV</label><br>
+              <input type="text" id="cvv" name="cvv" placeholder="הזן/י 3 ספרות בגב הכרטיס">&nbsp;&nbsp;<br><br>
+            </div>
+
+          </div>
+        </div>
+
+
+
+      </form>
+    </div>
+  </div>
+
+  <div class="col-25">
+    <div class="container">
+      <h2>סיכום הזמנה</h2>
+      <span class="price" style="color:black">
+        <i class="fa fa-shopping-cart"></i>
+        <h4>מס פריטים 4 </h4>
+      </span>
+
+      <p><a href="#">מנה 1</a> <span class="price">$15</span></p>
+      <p><a href="#">מנה 2</a> <span class="price">$5</span></p>
+      <p><a href="#">מנה 3</a> <span class="price">$8</span></p>
+      <p><a href="#">מנה 4</a> <span class="price">$2</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+
+    </div>
+    <form action="/action_page.php">
+    <div class="col-50">
+
+      <!--ראו הוזהרתם לשנות את השורה הבאה בקוד !!!!!!! עבדנו על זה עד השעה 4 בלילה-->
+      <button type="submit" formaction="C:\Users\debor\Google Drive\homework\אפליקציות\Order_Confirmation.html">לחץ
+        לסיום
+        הזמנה</button>
+    </div>
+    </form>
+    
+  </div>
+</div>
+
+</html>

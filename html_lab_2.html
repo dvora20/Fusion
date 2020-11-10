@@ -1,0 +1,141 @@
+<html dir="rtl">
+
+<head>
+</head>
+
+<body>
+    <style>
+        *{
+            text-align: center;
+            color: white;
+            background-image: url("https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg");
+
+
+        }
+    </style>
+    <div class="container">
+        <form action="action_page.php">
+
+            <label for="fname">שם מלא</label>
+            <input type="text" id="fname" name="firstname" placeholder="הזן/י שם מלא">
+
+            <label for="email">אימייל</label>
+            <input type="email" id="email" name="email" placeholder="הזן/י אימייל">
+
+            <!-- <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select> -->
+            <label for="phone">טלפון</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="הזן/י טלפון">
+
+            <div>
+
+                <label for="subject">מהות הפניה</label><br>
+                <textarea id="subject" name="subject" placeholder="הזן/י" style="height:200px"></textarea>
+            </div>
+
+
+            <input type="submit" value="שלח">
+
+        </form>
+    </div>
+
+    <!--LOGIN-->
+    <!-- <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+          <img src="img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form> -->
+
+
+    <div class="container">
+        <form action="action_page.php">
+
+            <label for="fname">שם מלא</label>
+            <input type="text" id="fname" name="firstname" placeholder="הזן/י שם מלא">
+            &nbsp;&nbsp;
+            <label for="email">אימייל</label>
+            <input type="email" id="email" name="email" placeholder="הזן/י אימייל">
+            &nbsp;&nbsp;
+
+            <!-- <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select> -->
+            <label for="phone">טלפון</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="הזן/י טלפון">
+            &nbsp;&nbsp;
+
+            <label for="date">תאריך</label>
+            <input type="date" id="birthday" name="birthday">
+            &nbsp;&nbsp;
+
+            <label for="appt">שעה</label>
+            <input type="time" id="appt" name="appt">
+            &nbsp;&nbsp;
+
+
+            <label for="quantity">מס' סועדים</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="15">
+
+            <div>
+
+                <label for="subject">הערות</label><br>
+                <textarea id="subject" name="subject" placeholder="הזן/י" style="height:200px"></textarea>
+            </div>
+
+       
+            <label for="kitchens">בחר מטבח</label>
+            <select name="kitchens" id="kitchens">
+                <option value="Israeli">ישראלי</option>
+                <option value="Italie">איטלקי</option>
+                <option value="American">אמריקאי</option>
+                <option value="chaina">סיני</option>
+            </select>
+
+            <input type="submit" value="הזמן">
+
+            <center>Center this text!</center>
+
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- <img src="https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg" alt="W3Schools.com"> -->
+    <img src="images/htmlImg.png" alt="HTML Icon" style="width:128px;height:128px;">
+
+
+</body>
+
+</html>
