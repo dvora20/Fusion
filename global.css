@@ -1,7 +1,7 @@
 *{
     direction: ltr;
     background-color: black;
-    color:green;
+    
 }
 .navbar-brand{
     margin-right: 2rem;
@@ -24,6 +24,30 @@ body{
     color: white !important ;
 
 }
+#map{
+width: 350px;
+}
+.col-3{
+    text-align: right;
+    padding: 0px 80px 0px 0px;
+}
+.hour{
+    text-align: right;
+    font-size: medium;
+    position: relative;
+
+
+}
+.col-6{
+    padding: 0px 0px 0px 100px;
+    position: relative;
+
+}
+.row{
+position: relative;
+}
+
+
 
 
 
