@@ -2,7 +2,8 @@
     * {
         text-align: center;
         color: white;
-        background-image: url("https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg");
+        /* background-image: url("https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg"); */
+        background-color:black;
         font-size: 25px;
         font-weight: bold;
         direction: rtl;
