@@ -56,15 +56,14 @@
 
     }
 
-    select[name="kitchens"]
+    select[name="kitchens"]   
     {
       float: right;
       margin-right: 2em;
 
     }
     option {
-      color: black;
-
+      color: black; /* The caption of the options is in black      */
     
     }
     
@@ -75,7 +74,8 @@
     {
       color: black;
       float: right;
-      margin-right: 18em;
+      margin-right: 18em;   /*Positions the  input squares */
+
     }
 
     #right{

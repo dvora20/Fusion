@@ -1,0 +1,90 @@
+
+    * {
+        text-align: right;
+        color: white;
+        /* background-image: url("https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg"); */
+        background-color:black;
+        font-size: 25px;
+        /* font-weight: bold; */
+        direction: rtl;
+    }
+
+    #tittel {
+        font-size:50px ; 
+        
+      }
+    
+    /* textarea::placeholder{
+      font-size: medium;
+          color:black;
+          text-align: right;
+    }
+    input::placeholder{
+          font-size: small;
+          color:black;
+          text-align: right;
+    }
+
+   
+
+    label {
+      color:white;
+      float: right;
+      margin-right: 18em;
+      display: block;
+
+    }
+
+    .col-25{
+      float: left;
+      margin-left: 8em;
+
+
+    }
+
+    button{
+      font-size:30px ; 
+      color: white;
+      float: unset;
+      left: 50px;
+
+    
+    }
+    #date{
+      text-align:justify ;
+
+
+    }
+
+    select[name="kitchens"]
+    {
+      float: right;
+      margin-right: 2em;
+
+    }
+    option {
+      color: black;
+
+    
+    }
+    
+    input[name="appt"], 
+    textarea[name="subject"] , 
+    input[name="date"],  
+    input[name="quantity"]
+    {
+      color: black;
+      float: right;
+      margin-right: 18em;
+    }
+
+    #right{
+      float: right;
+      margin-right: 3em;
+
+    }
+    #left{
+      float: left;
+      margin-left: 1em;
+
+    } */

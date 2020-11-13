@@ -1,8 +1,32 @@
 *{
     direction: ltr;
     background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    direction: rtl;
+    background-size: cover;
+    /* text-align: justify; */
+
     
 }
+
+#tittel {
+    font-size:50px ; 
+    
+  }
+
+  /* text */
+  label {
+    color:white;
+    float: right;
+    margin-right: 18em;
+    display: block;
+
+  }
+
+
 .navbar-brand{
     margin-right: 2rem;
     
@@ -43,8 +67,14 @@ width: 350px;
     position: relative;
 
 }
-.row{
-position: relative;
+.footer{
+ position: fixed;
+bottom: 0px;
+width:100%;
+ /*text-align: center */
+}
+#logo{
+    width: 200px;
 }
 
 
