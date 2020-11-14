@@ -17,7 +17,7 @@
       textarea::placeholder{
         font-size: medium;      /*size of the Write inside*/
         color:rgb(143, 140, 140);
-        text-align: right;      /*which size the Write is*/
+        text-align: right ;      /*which size the Write is*/
       }
 
         /* the inside of the input */

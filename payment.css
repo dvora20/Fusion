@@ -1,5 +1,24 @@
-*{
-    direction: ltr;
+/* the inside of the textarea */
+textarea::placeholder{
+    font-size: medium;      /*size of the Write inside*/
+    color:rgb(143, 140, 140);
+    text-align: center;      /*which size the Write is*/
+  }
+
+    /* the inside of the input */
+  input::placeholder{
+        font-size: small;       /*size of the Write inside*/
+        color:rgb(143, 140, 140);
+        text-align: right;
+  }
+
+
+
+
+
+
+  
+  *{
     background-color: black !important;
     color: white;
     font-size: 25px;
@@ -8,6 +27,9 @@
     background-size: cover;
     /* text-align: justify; */
     
+}
+input{
+    margin-right: 18em !important;
 }
 
 #tittel {
@@ -79,3 +101,5 @@ width:100%;
 
 
 
+
+ 
